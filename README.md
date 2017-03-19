@@ -16,7 +16,7 @@ $ mkdir ~/.ssh
 $ cd .ssh
 $ ssh-keygen -t rsa -b 4096 -C "t07840ty@gmail.com"
 $ cp id_rsa.pub ~/webdev/
-$ cd ~/datasci
+$ cd ~/webdev
 $ docker-compose build
 $ docker-compose pull
 $ docker-compose up -d
